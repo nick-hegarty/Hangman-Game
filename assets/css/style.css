@@ -1,3 +1,13 @@
-*{
-	background-color:black;
+body{
+	background-image: url(../images/background.jpg);
+	position:fixed;
+}
+
+header{
+	text-transform: capitalize;
+	color:white;
+}
+
+body{
+	color:white;
 }

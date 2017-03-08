@@ -3,33 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-<p>
-	test
-</p>
-<script type="text/javascript">
-
-//greek god word choices
-var computerChoice =["zues","hera","poseidon","demeter", "ares","athena","apollo","artemis","hephaestus","aphrodite","hermes", "dionysus","hades","hypnos","nike","janus","nemesis","iris","hecate","tyche","kratos"];
-//user letter choice array
-var userChoice =[];
-//lives left
-var livesLeft=[9,8,7,6,5,4,3,2,1,0];
-
-var randomWord = computerChoice[Math.floor(Math.random() * computerChoice.length)];
+<header>
+<h1>Greek/Roman God HangmanGame</h1>
+	<h3>You have 9 chances to survive Medusa's Stare</h3>
+</header>
 
 
-//random word choice
 
 
-//function to randomly choose computerChoice string
-console.log(randomWord(computerChoice.length));
 
-console.log(computerChoice.length);
-</script>
-	
+
+<p id="man"></p>
+
+<p id="randomWord"></p>
+
+<button id="restartButton">Try Again</button>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
